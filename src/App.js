@@ -66,5 +66,5 @@ function App() {
   );
 }
 
-// export default withAuthenticator(App, { includesGreeting: true });
-export default App;
+export default withAuthenticator(App, { includesGreeting: true });
+// export default App;
