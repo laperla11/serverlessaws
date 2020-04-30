@@ -1,0 +1,44 @@
+{
+    "deve": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-serverlessaws-deve-180524-authRole",
+            "UnauthRoleArn": "arn:aws:iam::985159621824:role/amplify-serverlessaws-deve-180524-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::985159621824:role/amplify-serverlessaws-deve-180524-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-serverlessaws-deve-180524-deployment",
+            "UnauthRoleName": "amplify-serverlessaws-deve-180524-unauthRole",
+            "StackName": "amplify-serverlessaws-deve-180524",
+            "StackId": "arn:aws:cloudformation:eu-west-2:985159621824:stack/amplify-serverlessaws-deve-180524/9f0c04d0-8a3b-11ea-8e7b-0a3915ca55a4",
+            "AmplifyAppId": "d3vyrim3rj6yhb"
+        },
+        "categories": {
+            "auth": {
+                "serverlessawsa82a7e3c": {}
+            },
+            "function": {
+                "peopleFunction": {}
+            }
+        }
+    },
+    "featureone": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-serverlessaws-featureone-223035-authRole",
+            "UnauthRoleArn": "arn:aws:iam::985159621824:role/amplify-serverlessaws-featureone-223035-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::985159621824:role/amplify-serverlessaws-featureone-223035-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-serverlessaws-featureone-223035-deployment",
+            "UnauthRoleName": "amplify-serverlessaws-featureone-223035-unauthRole",
+            "StackName": "amplify-serverlessaws-featureone-223035",
+            "StackId": "arn:aws:cloudformation:eu-west-2:985159621824:stack/amplify-serverlessaws-featureone-223035/ada8b630-8a60-11ea-8ac0-06af0f49b59c",
+            "AmplifyAppId": "d3vyrim3rj6yhb"
+        },
+        "categories": {
+            "auth": {
+                "serverlessawsa82a7e3c": {}
+            },
+            "function": {
+                "peopleFunction": {}
+            }
+        }
+    }
+}
