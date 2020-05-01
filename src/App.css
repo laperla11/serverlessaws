@@ -1,3 +1,7 @@
+.ui.page.modals.transition.visible {
+  display: flex !important;
+}
+
 .App {
   text-align: center;
 }

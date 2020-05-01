@@ -27,6 +27,13 @@
             "privacy": {
                 "open": true
             }
+        },
+        {
+            "name": "/items",
+            "lambdaFunction": "crudapi",
+            "privacy": {
+                "open": true
+            }
         }
     ],
     "resourceName": "peopleApi",
@@ -34,13 +41,16 @@
     "functionArns": [
         {
             "lambdaFunction": "peopleFunction"
+        },
+        {
+            "lambdaFunction": "crudapi"
         }
     ],
     "privacy": {
         "auth": 1,
         "unauth": 0,
-        "authRoleName": "amplify-serverlessaws-featureone-223035-authRole",
-        "unAuthRoleName": "amplify-serverlessaws-featureone-223035-unauthRole"
+        "authRoleName": "amplify-serverlessaws-deve-180524-authRole",
+        "unAuthRoleName": "amplify-serverlessaws-deve-180524-unauthRole"
     },
     "dependsOn": [
         {
@@ -50,7 +60,15 @@
                 "Name",
                 "Arn"
             ]
+        },
+        {
+            "category": "function",
+            "resourceName": "crudapi",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
         }
     ],
-    "uuid": "5e80f08b"
+    "uuid": "611abcf3"
 }

@@ -1,0 +1,5 @@
+{
+    "tableName": "serverlessTable",
+    "partitionKeyName": "ID",
+    "partitionKeyType": "S"
+}

@@ -1,16 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import App from './App';
+import 'semantic-ui-css/semantic.css';
 import * as serviceWorker from './serviceWorker';
 
-import Amplify, { Auth } from 'aws-amplify';
+import Amplify from 'aws-amplify';
 import awsconfig from './aws-exports';
 Amplify.configure(awsconfig);
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className='container'>
+      <App />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

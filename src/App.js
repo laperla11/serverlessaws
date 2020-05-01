@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
-// import { withAuthenticator } from '@aws-amplify-react';
+import { Segment, Menu, Icon } from 'semantic-ui-react';
+
+import ItemDashboard from './components/itemDashboard';
+
 import { API } from 'aws-amplify';
 
 import './App.css';
@@ -44,6 +47,16 @@ function App() {
   return (
     <div className='App'>
       <AmplifySignOut />
+      <Segment>
+        <Menu>
+          <Menu.Item name='home'>
+            <Icon name='shop' />
+          </Menu.Item>
+          <Menu.Item name='Items' />
+          <Menu.Item name='aboutUs' />
+        </Menu>
+      </Segment>
+      <ItemDashboard />
       <input onChange={(e) => setSearchTerm(e.target.value)} />
       <button onClick={search}>Search</button>
       {people.length ? (
@@ -67,4 +80,3 @@ function App() {
 }
 
 export default withAuthenticator(App, { includesGreeting: true });
-// export default App;
